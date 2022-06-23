@@ -1,0 +1,169 @@
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vw;
+  padding-left: 10%;
+}
+
+
+@media (max-width:1240px) {
+  /* .hero__right>img{
+    display: none;
+  } */
+
+ .hero__buttons{
+  display: flex;
+  justify-content: center;
+ }
+
+ 
+ 
+
+  
+}
+
+
+@media (max-width:840px) {
+  .hero__buttons{
+    display: grid;
+    row-gap: 40px;
+  
+   }
+
+}
+
+@media (max-width:800px) {
+  .hero__right>img{
+    display: none;
+
+    
+  }
+  
+  .hero__featureText>h1{
+    
+    
+    font-size: 30px;
+    padding: 0%;
+    
+
+    
+  }
+  .hero__right{
+    padding:0px ;
+    
+    
+    
+
+  }
+
+ .hero__buttons{
+  display: grid;
+  row-gap: 40px;
+
+ }
+  
+ 
+
+
+  
+
+  
+
+  
+
+  
+}
+
+
+.hero__right {
+  display: flex;
+  justify-content: center;
+  
+  
+  padding: 0px;
+  
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+
+
+.hero__image {
+  width: inherit;
+}
+
+.hero__title {
+  font-size: 2.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 3.25rem;
+  max-width: 610px;
+  padding-bottom: 0px;
+}
+.heroo__title {
+  padding-top: 0px;
+  font-size: 2.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 3.25rem;
+  max-width: 610px;
+}
+
+.hero__subtitle {
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #5f6368;
+  max-width: 30em;
+  padding: 20px 0;
+}
+
+.hero__buttons {
+  margin: 30px 0;
+}
+
+.hero__createBTN {
+  background-color: #0073ff !important;
+  padding: 10px 15px !important;
+}
+
+.hero__createBTN p {
+  margin-left: 5px !important;
+  text-transform: capitalize;
+}
+
+.icon {
+  color: #5f6368;
+}
+
+.hero__input > .MuiInputBase-root {
+  height: 45px !important;
+  margin-left: 20px;
+}
+
+.hero__joinBTN {
+  text-transform: capitalize !important;
+  margin-left: 15px !important;
+  font-size: 1em !important;
+  color: #0073ff !important;
+}
+
+.hero__learnMore {
+  margin-top: 30px;
+  color: #5f6368;
+}
+
+.hero__lm {
+  margin-top: 30px;
+  color: #0073ff !important;
+}
+
+
+.hero__right>img{
+  width: 400px;
+
+    
+}
